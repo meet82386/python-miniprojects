@@ -4,6 +4,7 @@ from random import randint
 app = Flask(__name__)
 number = randint(0,9)
 
+
 @app.route("/")
 def home():
     return '<h1>Guess the number between 0 and 9</h1>' \
@@ -28,3 +29,4 @@ def check_number(n):
 
 if __name__ == "__main__":
     app.run(debug=True)
+    
