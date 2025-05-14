@@ -1,2 +1,4 @@
 musicalTimeMachine/data.txt
 .*
+.env
+*/.env
